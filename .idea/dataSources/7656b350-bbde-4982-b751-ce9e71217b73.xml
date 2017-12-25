@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="for-back@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="for-back">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="autogid"/>
+    <schema id="4" parent="1" name="cashback"/>
+    <schema id="5" parent="1" name="detalikg"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="insta_api"/>
+    <schema id="8" parent="1" name="kr-digital"/>
+    <schema id="9" parent="1" name="mining"/>
+    <schema id="10" parent="1" name="mining2"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="phpmyadmin"/>
+    <schema id="14" parent="1" name="prime-clinic"/>
+    <schema id="15" parent="1" name="softTest"/>
+    <schema id="16" parent="1" name="sys"/>
+    <schema id="17" parent="1" name="women"/>
+    <schema id="18" parent="1" name="youjobs"/>
+    <table id="19" parent="2" name="user"/>
+    <column id="20" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="19" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="19" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="19" name="bio">
+      <Position>4</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="19" name="age">
+      <Position>5</Position>
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="19" name="created">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="26" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

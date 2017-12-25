@@ -1,0 +1,7 @@
+user:
+    path: /user
+    defaults: { _controller: 'App\Controller\DefaultController::index' }
+
+get_user:
+    path: /user/{id}
+    defaults: { _controller: 'App\Controller\DefaultController::info' }
